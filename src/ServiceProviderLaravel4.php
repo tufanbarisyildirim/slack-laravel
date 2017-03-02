@@ -24,7 +24,7 @@ class ServiceProviderLaravel4 extends \Illuminate\Support\ServiceProvider
      */
     public function register()
     {
-        $this->app['maknz.slack'] = $this->app->share(function ($app) {
+        $this->app->singleton('maknz.slack', function($app) {
             $allow_markdown = $app['config']->get('slack::allow_markdown');
 
             $markdown_in_attachments = $app['config']->get('slack::markdown_in_attachments');
