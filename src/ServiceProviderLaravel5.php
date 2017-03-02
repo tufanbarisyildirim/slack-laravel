@@ -14,7 +14,7 @@ class ServiceProviderLaravel5 extends \Illuminate\Support\ServiceProvider
      */
     public function boot()
     {
-        $this->publishes([__DIR__.'/config/config.php' => config_path('slack.php')]);
+        $this->app->singleton('maknz.slack', function($app);
     }
 
     /**
