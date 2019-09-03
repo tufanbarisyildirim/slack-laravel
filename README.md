@@ -7,7 +7,7 @@ but instead of using the deprecated library
 it uses
 [Slack for PHP 2](https://github.com/nexylan/slack).
 A new developer is leading the project
-in a different reposity.
+in a different repository.
 
 
 ## Install
