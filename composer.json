@@ -1,5 +1,6 @@
 {
     "name": "javfres/slack-laravel",
+    "version": "2.1.0",
     "description": "Laravel 5 integration for the nexylan/slack package.",
     "keywords": ["slack", "laravel"],
     "license": "BSD-2-Clause",
