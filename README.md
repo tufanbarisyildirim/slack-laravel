@@ -29,7 +29,7 @@ I have not published it into packagist.
 "require": {
     
     ...
-    "javfres/slack-laravel": "2.0.0",
+    "javfres/slack-laravel": "2.1.*",
 
 },
 
